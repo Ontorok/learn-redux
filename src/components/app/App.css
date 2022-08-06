@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+ul {
+  list-style-type: none;
+}
+li {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  padding: 10px 7px;
+}
+li:nth-child(2n):hover {
+  background-color: #61dafb;
+}
+li:nth-child(2n + 1):hover {
+  background-color: bisque;
+}
